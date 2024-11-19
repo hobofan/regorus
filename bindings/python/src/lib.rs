@@ -371,6 +371,6 @@ impl Engine {
 }
 
 #[pymodule]
-pub fn regorus(_py: Python<'_>, m: &Bound<'_, PyModule>) -> PyResult<()> {
+pub fn hobofan_regorus(_py: Python<'_>, m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_class::<crate::Engine>()
 }
